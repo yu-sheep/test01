@@ -12,27 +12,39 @@
     <!-- contentはインターネットの検索エンジンでの説明文で使用される。
     丁寧に書いておく -->
     <meta name="description" content="太郎のポートフォリオサイトです">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <style>
+      h1 {
+        color: red;
+      }
+    </style> -->
   </head>
   <body>
     <header>
-      <!-- 画像はimgを使う。閉じタグは無い -->
-      <img src="img/taro.png" width="120" height="120" alt="太郎のアイコンです">
-      <!-- h1は見出し -->
-      <h1>山田太郎</h1>
-      <p>UI/UXデザイナー見習いです。</p>
-      <ul>
-        <li>
-          <!-- aタグでリンクへ飛べる。target="_blank"でリンクを新しいタブで開く -->
-          <a href="https://dotinstall.com" target="_blank">
-            <img src="img/blog.png" width="20" height="20" alt="ブログサイトへのリンク画像です">
-          </a>
-        </li>
-        <li>
-          <a href="https://dotinstall.com" target="_blank">
-          <img src="img/photos.png" width="20" height="20" alt="写真サイトへのリンク画像です">
-          </a>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="icon">
+          <!-- 画像はimgを使う。閉じタグは無い -->
+          <img src="img/taro.png" width="120" height="120" alt="太郎のアイコンです">
+        </div>
+        <div class="info">
+          <!-- h1は見出し -->
+          <h1>山田太郎</h1>
+          <p>UI/UXデザイナー見習いです。</p>
+          <ul>
+            <li>
+              <!-- aタグでリンクへ飛べる。target="_blank"でリンクを新しいタブで開く -->
+              <a href="https://dotinstall.com" target="_blank">
+                <img src="img/blog.png" width="20" height="20" alt="ブログサイトへのリンク画像です">
+              </a>
+            </li>
+            <li>
+              <a href="https://dotinstall.com" target="_blank">
+              <img src="img/photos.png" width="20" height="20" alt="写真サイトへのリンク画像です">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     
     <section>
